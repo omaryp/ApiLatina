@@ -12,7 +12,7 @@
         </Console>
  
         <RollingFile name="AppFileLog"
-            fileName="${APP_LOG_ROOT}/apibase.log"
+            fileName="${APP_LOG_ROOT}/apimyo.log"
             filePattern="${APP_LOG_ROOT}/apibase-%d{yyyy-MM-dd}-%i.log">
             <PatternLayout pattern="${LOG_PATTERN2}" />
             <Policies>
