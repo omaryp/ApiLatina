@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class ParametrosApi {
 		
 	//PARAMETROS CARGADOS DESDE PROPERTIES
-	@Value("${config.plantilla.log4j2}")
+	@Value("${config.myo.log4j2}")
     private String rutaConfigLog4j2;
 	
 	
